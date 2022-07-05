@@ -15,7 +15,7 @@ C:/Users/ap/Documents/GitHub/kadai-kenkyuu/kadai_kenkyuu
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63950
+61554
 Successfully changed project path to: C:/Users/ap/Documents/GitHub/kadai-kenkyuu/kadai_kenkyuu
 C:/Users/ap/Documents/GitHub/kadai-kenkyuu/kadai_kenkyuu
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/ap/Documents/GitHub/kadai-kenkyuu/kadai_kenkyuu
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 176.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 307.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.034046 seconds.
+Registered in 0.043134 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 233.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 305.99 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.915 seconds
+- Completed reload, in  1.961 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1916ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (1962ms)
+		BeginReloadAssembly (249ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1385ms)
-			LoadAssemblies (213ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1315ms)
+			LoadAssemblies (244ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (106ms)
-			SetupLoadedEditorAssemblies (794ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (808ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (234ms)
+				RefreshPlugins (306ms)
 				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (377ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.035304 seconds.
+Registered in 0.037437 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ap\Documents\GitHub\kadai-kenkyuu\kadai_kenkyuu\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ap\Documents\GitHub\kadai-kenkyuu\kadai_kenkyuu\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.093 seconds
+- Completed reload, in  3.344 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3096ms)
-		BeginReloadAssembly (332ms)
+	ReloadAssembly (3346ms)
+		BeginReloadAssembly (358ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (19ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (2435ms)
-			LoadAssemblies (272ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (2562ms)
+			LoadAssemblies (318ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (732ms)
+			SetupTypeCache (816ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (132ms)
-			SetupLoadedEditorAssemblies (1206ms)
+			RebuildScriptCaches (165ms)
+			SetupLoadedEditorAssemblies (1163ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (2ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (314ms)
-				ProcessInitializeOnLoadAttributes (741ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (36ms)
+				BeforeProcessingInitializeOnLoad (302ms)
+				ProcessInitializeOnLoadAttributes (714ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (33ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (112.1 KB). Loaded Objects now: 3831.
-Memory consumption went from 132.1 MB to 132.0 MB.
-Total: 3.731400 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.184000 ms MarkObjects: 3.115700 ms  DeleteObjects: 0.141500 ms)
+Unloading 3490 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (467.5 KB). Loaded Objects now: 3972.
+Memory consumption went from 151.4 MB to 150.9 MB.
+Total: 3.674600 ms (FindLiveObjects: 0.340700 ms CreateObjectMapping: 0.242200 ms MarkObjects: 2.690200 ms  DeleteObjects: 0.400100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,213 +160,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 353068.940906 seconds.
+  Time since last request: 294857.503483 seconds.
   path: Assets/New Terrain.asset
   artifactKey: Guid(3975cb9a5f227c34581839481a0447cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(3975cb9a5f227c34581839481a0447cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22affb5ddd59c2872e28c65c980a8087') in 0.075157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 804.874966 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2777e3fe38aae0545bd1ef00f23025') in 1.236608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.500033 seconds.
-  path: Assets/Japanese Street Lamp/Meshes
-  artifactKey: Guid(3f7bcb6d172c62042ad73351f591b2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Meshes using Guid(3f7bcb6d172c62042ad73351f591b2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f6192f278d19aeefc8749b8ab5c1e') in 0.006459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.635501 seconds.
-  path: Assets/Japanese Street Lamp/Materials
-  artifactKey: Guid(b5270ad5ea06fd5428469a1823ff015f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Materials using Guid(b5270ad5ea06fd5428469a1823ff015f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15264aea92b5276dcad1ab3e232a3e35') in 0.006929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.461834 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f5fa64d8ddb589806bf4eb0c7124265') in 0.048181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 295.389543 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cd747aa16223b91659fe3fee60c512') in 0.054700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.913109 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5955d1b8aa44ab3155f51ad320059b') in 0.058407 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 144.158054 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935cc9e9aea32f8cf5360e2bda597bfb') in 0.043311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.118037 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13fc0d9545fbe8ff5e9e45f094b28ef') in 0.050620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.369710 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7258cb574d02cddba51bed6193b53463') in 0.029468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.098508 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5457410c3068e645e048961b18c93c43') in 0.033283 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.252413 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92132762e20e4aa52010581a1bcac6a3') in 0.031187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.919023 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2ea2b31a0e08df35c01be0ae9e4422') in 0.029196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.470441 seconds.
-  path: Assets/Japanese Street Lamp/Japanese Street Lamp.prefab
-  artifactKey: Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp/Japanese Street Lamp.prefab using Guid(d3a86a245c874f341815b25579c74e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98415a209a9b4fd9b9d84f2eb306d5cc') in 0.037301 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 304.622973 seconds.
-  path: Assets/Japanese Street Lamp
-  artifactKey: Guid(1b5a851f6f6d0a446a45dd4ff9d814e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Japanese Street Lamp using Guid(1b5a851f6f6d0a446a45dd4ff9d814e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6e99751b3934c0e41ade5bb2803af8') in 0.008806 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014924 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\ap\Documents\GitHub\kadai-kenkyuu\kadai_kenkyuu\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\ap\Documents\GitHub\kadai-kenkyuu\kadai_kenkyuu\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  2.870 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2872ms)
-		BeginReloadAssembly (338ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2183ms)
-			LoadAssemblies (287ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (773ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (124ms)
-			SetupLoadedEditorAssemblies (929ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (35ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (187ms)
-				ProcessInitializeOnLoadAttributes (583ms)
-				ProcessInitializeOnLoadMethodAttributes (81ms)
-				AfterProcessingInitializeOnLoad (40ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (27ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3486 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (4.4 MB). Loaded Objects now: 3954.
-Memory consumption went from 149.2 MB to 144.7 MB.
-Total: 7.086300 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.192100 ms MarkObjects: 2.838900 ms  DeleteObjects: 3.739600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1098.813338 seconds.
-  path: Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab
-  artifactKey: Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab using Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e0dcfd56fbfb7748afe8ae6850a23b') in 0.079663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab
-  artifactKey: Guid(a5be31db3f71b0642af74fe491b4bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab using Guid(a5be31db3f71b0642af74fe491b4bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085d3fbccaf962a86b1a6347c26b96f6') in 0.016758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab
-  artifactKey: Guid(baec086904791744185aaa07a6cf55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab using Guid(baec086904791744185aaa07a6cf55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a52e5c9defdb4a77382e5fa60a10227') in 0.019432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 252.842212 seconds.
-  path: Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png
-  artifactKey: Guid(c7e9ae087ac710a4980ed418c192e2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftFuselageNormals.png using Guid(c7e9ae087ac710a4980ed418c192e2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd275a78f01ae0b12d499abb8437598bb') in 0.286961 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png
-  artifactKey: Guid(da369a9e24c14b04da8e0be4d9fbee0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur02GreyAlbedo.png using Guid(da369a9e24c14b04da8e0be4d9fbee0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde7292ac4dfc789c40ca4550e8d9fbc') in 0.019667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png
-  artifactKey: Guid(0d0e2aad9fc8ad04ba15c42753f8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03WhiteAlbedo.png using Guid(0d0e2aad9fc8ad04ba15c42753f8b797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4dba2b2f0d58ecb3010bf408fdae969') in 0.015350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png
-  artifactKey: Guid(2beb3362d4b99ed40890889c97d63cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftPropellerBlur03GreyAlbedo.png using Guid(2beb3362d4b99ed40890889c97d63cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d1476d3ce97e0e8f0196e387fc197c') in 0.017333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.029908 seconds.
-  path: Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
-  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdf6943f2778ef1cfaf7b4b3a43c845') in 0.025090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
-  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9e9ec6fa920d5f86b9785815319ca1') in 0.020538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.162826 seconds.
-  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
-  artifactKey: Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp using Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ed642f7a46afdc8e6e1be37f98e64a') in 0.045159 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Start importing Assets/New Terrain.asset using Guid(3975cb9a5f227c34581839481a0447cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Japanese Street Lamp must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '00bc72d3a9b9ce7761da14c1a4e72b37') in 0.237686 seconds 
